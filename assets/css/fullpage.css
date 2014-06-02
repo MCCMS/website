@@ -101,29 +101,29 @@ html, body {
 }
 #fullPage-nav ul,
 .fullPage-slidesNav ul {
-  margin: 0;
-  padding: 0;
+  /*margin: 0;*/
+  /*padding: 0;*/
 }
 #fullPage-nav li,
 .fullPage-slidesNav li {
-    display: block;
-    width: 14px;
-    height: 13px;
-    margin: 7px;
-    position:relative;
+    /*display: block;*/
+    /*width: 14px;*/
+    /*height: 13px;*/
+    /*margin: 7px;*/
+    /*position:relative;*/
 }
 .fullPage-slidesNav li {
     display: inline-block;
 }
 #fullPage-nav li a,
 .fullPage-slidesNav li a {
-    display: block;
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-    text-decoration: none;
+    /*display: block;*/
+    /*position: relative;*/
+    /*z-index: 1;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*cursor: pointer;*/
+    /*text-decoration: none;*/
 }
 #fullPage-nav li .active span,
 .fullPage-slidesNav .active span {
@@ -131,6 +131,7 @@ html, body {
 }
 #fullPage-nav span,
 .fullPage-slidesNav span {
+    /*
     top: 2px;
     left: 2px;
     width: 8px;
@@ -142,6 +143,7 @@ html, body {
     border-radius: 50%;
     position: absolute;
     z-index: 1;
+    */
 }
 .fullPage-tooltip {
     position: absolute;

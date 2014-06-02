@@ -1,0 +1,3 @@
+[submodule "assets/plugins/fullPage.js"]
+	path = assets/plugins/fullPage.js
+	url = https://github.com/alvarotrigo/fullPage.js.git

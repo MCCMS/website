@@ -1,0 +1,39 @@
+.slides #about {
+    background: #CFE9F6;
+}
+
+.slides #services { background: #BAB147; }
+    .slides #services .service-col { height: 100%; font-size: 1.1em;}
+        .slides #services .service-col .service-wrapper {margin-top: 180px;}
+            .slides #services .service-col h2 {padding-top: 15px; line-height: 1.5em;}
+            .slides #services .service-col p  {padding: 5px; padding-top: 20px; padding-bottom: 15px;}
+    .slides #services #s1{ background: #DC638B; /* Pink-ish */}
+    .slides #services #s2{ background: #3AB4E5; /* Blue-ish */}
+    .slides #services #s3{ background: #C389C2; /* Violet-ish */}
+    .slides #services #s4{ background: #F5FA90; /* yellow-is */}
+    .slides #services #s5{ background: #8BE3E5; /* lighter blue-ish */}
+    .slides #services #s6{ background: #B5E491; /* lighter green-ish */}
+
+.slides #problems {
+    background: #545E63;
+}
+
+.slides #psych-tests {
+    background: #E9A25E;
+}
+
+.slides #contacts {
+    background: #7095B7;
+}
+
+
+.slides #services .service-row,
+.slides #services .service-row-reg{
+    overflow: visible;
+    height: 100%;
+    width: 100%;
+}
+.slides #services .service-row.service-row-ext {
+    width: 120%;
+    left: -10%;
+}

@@ -6,7 +6,7 @@ $(document).ready(function() {
         slidesNavPosition: 'top pull-left',
         animateAnchor: true,
         verticalCentered: true,
-        resize : true,
+        resize : false,
         loopHorizontal: false,
     });
     $.fn.fullpage.moveTo(0,4); 

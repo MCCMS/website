@@ -4,36 +4,43 @@
         <title>MCCMS Website</title>
         <!-- CSS -->
         <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
-        <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"/>
+        <!--<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"/>-->
+        <link href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/lumen/bootstrap.min.css" rel="stylesheet">
         <!--<link rel="stylesheet" type="text/css" href="assets/plugins/fullPage.js/jquery.fullPage.css" />-->
         <link rel="stylesheet" type="text/css" href="assets/plugins/fullPage.js/examples/examples.css" />
         <link rel="stylesheet" type="text/css" href="assets/css/fullpage.css" />
-        
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/earlyaccess/droidarabickufi.css"/>
+        <style> 
+            * { font-family: 'Droid Arabic Kufi',"Helvetica Neue", Helvetica, Arial, sans-serif !important; }
+            i { font-family: FontAwesome !important; }
+        </style>
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         <style>
-
-        	.section{ text-align:center; }
-        
-        
-        	/* Overwriting styles for the navigation dots (to place it where we want)
-        	* --------------------------------------- */
-        	.fullPage-slidesNav.bottom{ bottom: 25px; }
-        
-        
+            .nav-pills > li > a.active, 
+            .nav-pills > li > a.active:hover, 
+            .nav-pills > li > a.active:focus {
+                /*TODO: fix at bootstrap */
+                color: #FFF;
+                background-color: #428BCA;
+            }
+            #brand {
+                top: 17px;
+                display: block;
+                position: absolute;
+                z-index: 4;
+                right: 50px;
+                opacity: 1;
+            }
         </style>
         <!-- /CSS -->
     </head>
     <body>
     
-        <!--
-        <ul id="menu">
-	        <li class="toSlide" data-index="1"><a href="#slide0">About</a></li>
-	        <li class="toSlide" data-index="2"><a href="#slide1">Services</a></li>
-	        <li class="toSlide" data-index="3"><a href="#slide2">Problems</a></li>
-	        <li class="toSlide" data-index="4"><a href="#slide3">Psych Tests</a></li>
-	        <li class="toSlide" data-index="5"><a href="#slide5">Contacts</a></li>
+        <ul id="brand" class="nav nav-pills pull-right">
+            <li><a href="">Dr. Medhat</a></li>
+	        <li><a href="">LOGO</a></li>
+	        
 	    </ul>
-	    -->
 	    
         <div id="full-page">
             <div class="section active">
@@ -99,7 +106,7 @@
         <script src="assets/plugins/fullPage.js/jquery.fullPage.min.js"></script>
         <script src="assets/js/fullpage.js" type="text/javascript" charset="utf-8"></script>
         <script type="text/javascript" charset="utf-8">
-            
+          /* Code Here */  
         </script>
         <!-- /JS -->
     </body>

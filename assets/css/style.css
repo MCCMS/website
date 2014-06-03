@@ -8,7 +8,7 @@
 
 .slides > * { direction: rtl; }
 
-.slides #about {background: #fff; }
+.slides #about {background: #CFE9F6; }
 
 .slides #services { background: #FFF2C6; }
   .slides #services .service-row { margin-bottom: 10px; margin-left: 70px;}

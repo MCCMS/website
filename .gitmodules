@@ -4,3 +4,6 @@
 [submodule "assets/plugins/jquery.transit"]
 	path = assets/plugins/jquery.transit
 	url = https://github.com/rstacruz/jquery.transit.git
+[submodule "assets/plugins/pace"]
+	path = assets/plugins/pace
+	url = https://github.com/HubSpot/pace.git

@@ -1,17 +1,23 @@
-.slides #about {
-    background: #CFE9F6;
-}
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* MCCMS Website main stylesheet                                             */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-.slides #services { background: #BAB147; }
-    .slides #services .service-col { height: 100%; font-size: 1.1em;}
-        .slides #services .service-col .service-wrapper {margin-top: 180px;}
-            .slides #services .service-col h2 {padding-top: 15px; line-height: 1.5em;}
-            .slides #services .service-col p  {padding: 5px; padding-top: 20px; padding-bottom: 15px;}
+.slides > * { direction: rtl; }
+
+.slides #about {background: #CFE9F6; }
+
+.slides #services { background: #FFF2C6; }
+  .slides #services .service-row { margin-bottom: 10px; margin-left: 70px;}
+    .slides #services .service-col { margin-left: 10px; height: 100%; font-size: 1em; height: 250px}
+        /*.slides #services .service-col .service-wrapper {margin-top: 180px;}*/
+        .slides #services .service-col h2 { font-size: 1.2em; padding-top: 15px; line-height: 1.35em;}
+        .slides #services .service-col h2.one-line { line-height: 2.7em; }
+        .slides #services .service-col p  { display: block; padding: 5px; padding-top: 20px; padding-bottom: 15px; }
     .slides #services #s1 { background: #DC638B; /* Pink-ish */}
     .slides #services #s1.hover { z-index: 2; border:3px solid #C2577B; /* Pink-ish HSV v-10*/}
-    .slides #services #s2 { background: #3AB4E5; /* Blue-ish */}
+    .slides #services #s2 { background: #BE9F7C; /* Brown-ish */}
     .slides #services #s2.hover { z-index: 2; border:3px solid #33A1CC; /* Blue-ish HSV v-10*/}
-    .slides #services #s3 { background: #C389C2; /* Violet-ish */}
+    .slides #services #s3 { background: #FF73A2; /* lighter Pink-ish */}
     .slides #services #s3.hover { z-index: 2; border:3px solid #A876A7; /* Violet-ish HSV v-10*/}
     .slides #services #s4 { background: #F5FA90; /* yellow-is */}
     .slides #services #s4.hover { z-index: 2; border:3px solid #DCE082; /* yellow-is HSV v-10*/}
@@ -19,27 +25,19 @@
     .slides #services #s5.hover { z-index: 2; border:3px solid #7CCBCC; /* lighter blue-ish HSV v-10*/}
     .slides #services #s6 { background: #B5E491; /* lighter green-ish */}
     .slides #services #s6.hover { z-index: 2; border:3px  solid #A0C981; /* lighter green-ish HSV v-10*/}
-
-.slides #problems {
-    background: #545E63;
-}
-
-.slides #psych-tests {
-    background: #E9A25E;
-}
-
-.slides #contacts {
-    background: #7095B7;
-}
+    .slides #services #sb1 { background: #A0C981; /* Green-ish */}
+    .slides #services #sb1.hover { z-index: 2; border:3px solid #C2577B; /* Pink-ish HSV v-10*/}
+    .slides #services #sb2 { background: #3AB4E5; /* Blue-ish */}
+    .slides #services #sb2.hover { z-index: 2; border:3px solid #33A1CC; /* Blue-ish HSV v-10*/}
+    .slides #services #sb3 { background: #C389C2; /* Violet-ish */}
+    .slides #services #sb3.hover { z-index: 2; border:3px solid #A876A7; /* Violet-ish HSV v-10*/}
+    .slides #services #sb4 { background: transparent; margin-left: 20px;}
+      .slides #services #sb4 ul { list-style: disc; padding-right: 20px; }
 
 
-.slides #services .service-row,
-.slides #services .service-row-reg{
-    overflow: visible;
-    height: 100%;
-    width: 100%;
-}
-.slides #services .service-row.service-row-ext {
-    width: 120%;
-    left: -10%;
-} 
+.slides #problems {background: #545E63;}
+
+.slides #psych-tests { background: #E9A25E; }
+
+.slides #contacts { background: #7095B7; }
+

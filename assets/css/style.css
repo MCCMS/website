@@ -10,6 +10,10 @@
 
 .slides #about {background: #CFE9F6; }
 
+/*#DC638B #BE9F7C #FF73A2 #F5FA90 #8BE3E5*/
+/*C2577B 33A1CC A876A7 DCE082 7CCBCC*/
+
+
 .slides #services { background: #FFF2C6; }
   .slides #services .service-row { margin-bottom: 10px; margin-left: 70px;}
     .slides #services .service-col { margin-left: 10px; height: 100%; font-size: 1em; height: 250px}
@@ -17,18 +21,18 @@
         .slides #services .service-col h2 { font-size: 1.2em; padding-top: 15px; line-height: 1.35em;}
         .slides #services .service-col h2.one-line { line-height: 2.7em; }
         .slides #services .service-col p  { display: block; padding: 5px; padding-top: 20px; padding-bottom: 15px; }
-    .slides #services #s1 { background: #DC638B; /* Pink-ish */}
-    .slides #services #s1.hover { z-index: 2; border:3px solid #C2577B; /* Pink-ish HSV v-10*/}
-    .slides #services #s2 { background: #BE9F7C; /* Brown-ish */}
-    .slides #services #s2.hover { z-index: 2; border:3px solid #33A1CC; /* Blue-ish HSV v-10*/}
-    .slides #services #s3 { background: #FF73A2; /* lighter Pink-ish */}
-    .slides #services #s3.hover { z-index: 2; border:3px solid #A876A7; /* Violet-ish HSV v-10*/}
-    .slides #services #s4 { background: #F5FA90; /* yellow-is */}
-    .slides #services #s4.hover { z-index: 2; border:3px solid #DCE082; /* yellow-is HSV v-10*/}
-    .slides #services #s5 { background: #8BE3E5; /* lighter blue-ish */}
-    .slides #services #s5.hover { z-index: 2; border:3px solid #7CCBCC; /* lighter blue-ish HSV v-10*/}
-    .slides #services #s6 { background: #B5E491; /* lighter green-ish */}
-    .slides #services #s6.hover { z-index: 2; border:3px  solid #A0C981; /* lighter green-ish HSV v-10*/}
+    /* ROW A*/
+    .slides #services #sa1 { background: #8BE3E5; /* lighter blue-ish */}
+    .slides #services #sa1.hover { z-index: 2; border:3px solid #7CCBCC; /* lighter blue-ish HSV v-10*/}
+    .slides #services #sa2 { background: #F5FA90; /* yellow-is */}
+    .slides #services #sa2.hover { z-index: 2; border:3px solid #DCE082; /* yellow-is HSV v-10*/}
+    .slides #services #sa3 { background: #FF73A2; /* lighter Pink-ish */}
+    .slides #services #sa3.hover { z-index: 2; border:3px solid #A876A7; /* Violet-ish HSV v-10*/}
+    .slides #services #sa4 { background: #BE9F7C; /* Brown-ish */}
+    .slides #services #sa4.hover { z-index: 2; border:3px solid #33A1CC; /* Blue-ish HSV v-10*/}
+    .slides #services #sa5 { background: #DC638B; /* Pink-ish */ }
+    .slides #services #sa5.hover { z-index: 2; border:3px solid #C2577B; /* Pink-ish HSV v-10*/}
+    /* ROW B*/
     .slides #services #sb1 { background: #A0C981; /* Green-ish */}
     .slides #services #sb1.hover { z-index: 2; border:3px solid #C2577B; /* Pink-ish HSV v-10*/}
     .slides #services #sb2 { background: #3AB4E5; /* Blue-ish */}
@@ -36,6 +40,7 @@
     .slides #services #sb3 { background: #C389C2; /* Violet-ish */}
     .slides #services #sb3.hover { z-index: 2; border:3px solid #A876A7; /* Violet-ish HSV v-10*/}
     .slides #services #sb4 { background: transparent; margin-left: 20px;}
+      .slides #services #sb4 h2 { margin-bottom: 5px; }
       .slides #services #sb4 ul { list-style: disc; padding-right: 20px; }
 
 
@@ -45,3 +50,9 @@
 
 .slides #contacts { background: #7095B7; }
 
+
+@media (max-width: 1280px) {
+  .slides #services .service-col { padding: 0; margin-left: 10px; height: 100%; font-size: 0.8em; height: 150px}
+    .slides #services .service-col  h2 { padding: 0; padding-top:5px;}
+    .slides #services .service-col  p { padding: 5;}
+}

@@ -2,9 +2,12 @@
 /* MCCMS Website main stylesheet                                             */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
+.background-light { color: black !important;  }
+.background-dark { color: whitesmoke !important; }
+
 #brand .dm_title h2 { font-size: 23px; line-height: 2em; padding-right: 10px;}
-#brand .dm_title ul {font-size: 11px;}
-#brand .dm_logo { background: url('../images/dm_logo.png'); width: 64px; height: 64px; z-index: 9; background-size: auto 64px; background-repeat: no-repeat; }
+#brand .dm_title ul { font-size: 11px; }
+#brand .dm_logo { background: url('../images/dm_logo.png') no-repeat; width: 64px; height: 64px; z-index: 9; background-size: auto 64px; }
 
 .slides > * { direction: rtl; }
 

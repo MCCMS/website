@@ -33,6 +33,7 @@ $(document).ready(function() {
     $(".fullPage-slidesNav").css("margin-left", "0px");
 
     // fullPage-slidesNav
+    $(".fullPage-slidesNav").addClass('hidden-xs')
     $(".fullPage-slidesNav > ul").addClass('nav nav-pills')
     $(".fullPage-slidesNav > ul li:nth-child(1) a").empty().prepend("Contacts");
     $(".fullPage-slidesNav > ul li:nth-child(2) a").empty().prepend("Psych Tests");

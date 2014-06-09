@@ -1,9 +1,9 @@
 [submodule "assets/plugins/fullPage.js"]
-	path = assets/plugins/fullPage.js
+	path = source/assets/plugins/fullPage.js
 	url = https://github.com/alvarotrigo/fullPage.js.git
 [submodule "assets/plugins/jquery.transit"]
-	path = assets/plugins/jquery.transit
+	path = source/assets/plugins/jquery.transit
 	url = https://github.com/rstacruz/jquery.transit.git
 [submodule "assets/plugins/pace"]
-	path = assets/plugins/pace
+	path = source/assets/plugins/pace
 	url = https://github.com/HubSpot/pace.git

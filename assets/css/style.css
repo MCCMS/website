@@ -45,12 +45,11 @@
         .slides #services #sb4 {background-color: transparent; margin-left: 20px;}
           .slides #services #sb4 h2 { margin-bottom: 5px; }
           .slides #services #sb4 ul { list-style: disc; padding-right: 20px; }
-  }
 
 /*==========  Problems Slide (2)  ==========*/
-.slides #problems {background: #545E63;}
+.slides #problems { background: #545E63; }
 
-/*==========  Tests Slide (2)  ==========*/
+/*==========  Tests Slide (1)  ==========*/
 .slides #psych-tests { background: #E9A25E; }
 
 /*==========  Contacts Slide (0)  ==========*/
